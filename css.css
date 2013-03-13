@@ -1,0 +1,229 @@
+* {
+    margin:0;
+    padding:0;
+    position:relative;
+    z-index:100;
+}
+
+body {
+    background-color:rgba(64,153, 233, 1);
+}
+
+.clouds {
+    position:fixed;
+    z-index:10;
+    top:0;
+    left:0;
+    height: 300px;
+    width: 100%;
+}
+.clouds .cloud {
+    position:absolute;
+    height: 100px;
+    width: 200px;
+}
+
+.clouds .cloud.type1 {
+    top:6%
+    left:0%;
+    
+    -webkit-animation: type1 11s infinite linear;
+       -moz-animation: type1 11s infinite linear;
+        -ms-animation: type1 11s infinite linear;
+         -o-animation: type1 11s infinite linear;
+            animation: type1 11s infinite linear;
+}
+
+.clouds .cloud.type2 {
+    top:2%;
+    left:40%;
+    
+    -webkit-animation: type1 17s infinite linear;
+       -moz-animation: type1 17s infinite linear;
+        -ms-animation: type1 17s infinite linear;
+         -o-animation: type1 17s infinite linear;
+            animation: type1 17s infinite linear;
+}
+
+.clouds .cloud.type3 {
+    top:4%;
+    left:15%;
+    
+    -webkit-animation: type1 13s infinite linear;
+       -moz-animation: type1 13s infinite linear;
+        -ms-animation: type1 13s infinite linear;
+         -o-animation: type1 13s infinite linear;
+            animation: type1 13s infinite linear;
+}
+
+.clouds .cloud.type4 {
+    top:0%;
+    right:20%;
+    
+    -webkit-animation: type1 19s infinite linear;
+       -moz-animation: type1 19s infinite linear;
+        -ms-animation: type1 19s infinite linear;
+         -o-animation: type1 19s infinite linear;
+            animation: type1 19s infinite linear;
+}
+
+.clouds .cloud.type5 {
+    top:3%;
+    right:12%;
+    
+    -webkit-animation: type1 7s infinite linear;
+       -moz-animation: type1 7s infinite linear;
+        -ms-animation: type1 7s infinite linear;
+         -o-animation: type1 7s infinite linear;
+            animation: type1 7s infinite linear;
+}
+
+.clouds .cloud.type6 {
+    top:10%;
+    right:40%;
+    
+    -webkit-animation: type1 23s infinite linear;
+       -moz-animation: type1 23s infinite linear;
+        -ms-animation: type1 23s infinite linear;
+         -o-animation: type1 23s infinite linear;
+            animation: type1 23s infinite linear;
+}
+
+@-webkit-keyframes type1 {
+    0% {
+        -webkit-transform: translateX(-30%);
+           -moz-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+             -o-transform: translateX(-30%);
+                transform: translateX(-30%);
+        }
+    50% {
+        -webkit-transform: translateX(0%);
+           -moz-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+             -o-transform: translateX(0%);
+                transform: translateX(0%);
+        }
+    100% {
+        -webkit-transform: translateX(-30%);
+           -moz-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+             -o-transform: translateX(-30%);
+                transform: translateX(-30%);
+        }
+}
+
+@-moz-keyframes type1 {
+    0% {
+        -webkit-transform: translateX(-30%);
+           -moz-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+             -o-transform: translateX(-30%);
+                transform: translateX(-30%);
+        }
+    50% {
+        -webkit-transform: translateX(0%);
+           -moz-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+             -o-transform: translateX(0%);
+                transform: translateX(0%);
+        }
+    100% {
+        -webkit-transform: translateX(-30%);
+           -moz-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+             -o-transform: translateX(-30%);
+                transform: translateX(-30%);
+        }
+}
+
+@-o-keyframes type1 {
+    0% {
+        -webkit-transform: translateX(-30%);
+           -moz-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+             -o-transform: translateX(-30%);
+                transform: translateX(-30%);
+        }
+    50% {
+        -webkit-transform: translateX(0%);
+           -moz-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+             -o-transform: translateX(0%);
+                transform: translateX(0%);
+        }
+    100% {
+        -webkit-transform: translateX(-30%);
+           -moz-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+             -o-transform: translateX(-30%);
+                transform: translateX(-30%);
+        }
+}
+
+@keyframes type1 {
+    0% {
+        -webkit-transform: translateX(-30%);
+           -moz-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+             -o-transform: translateX(-30%);
+                transform: translateX(-30%);
+        }
+    50% {
+        -webkit-transform: translateX(0%);
+           -moz-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+             -o-transform: translateX(0%);
+                transform: translateX(0%);
+        }
+    100% {
+        -webkit-transform: translateX(-30%);
+           -moz-transform: translateX(-30%);
+            -ms-transform: translateX(-30%);
+             -o-transform: translateX(-30%);
+                transform: translateX(-30%);
+        }
+}
+
+.clouds .cloud div{
+    position:absolute;
+    background-color:rgba(255, 255, 255, 1);
+}
+
+.clouds .cloud div:first-child{
+    height: 50%;
+    width: 100%;
+    
+    bottom:0;
+    left:0;
+        
+    -webkit-box-shadow: 0px 8px 2px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 8px 2px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0px 8px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 8px 2px rgba(0, 0, 0, 0.6);
+    
+    border-top-left-radius:35px;
+    border-top-right-radius:35px;
+}
+
+.clouds .cloud div:not(:first-child){
+    height: 60px;
+    width: 60px;
+    -webkit-border-radius: 60px;
+	        border-radius: 60px;
+}
+
+.clouds .cloud div+div{
+    top: 10px;
+    left: 73px;
+}
+
+.clouds .cloud div+div+div{
+    top:26px;
+    left:32px;
+}
+
+.clouds .cloud div+div+div+div{
+    top:26px;
+    left:112px;
+}
